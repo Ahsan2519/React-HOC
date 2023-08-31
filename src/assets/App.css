@@ -10,3 +10,10 @@ button{
   padding: 5px;
   cursor: pointer;
 }
+
+.child{
+  margin: 25px auto;
+  text-align: center;
+  display: block;
+  padding: 5px;
+}
