@@ -1,9 +1,11 @@
 import React, { Component } from "react";
 import { UseerConsumer } from "./userContext";
+import FunOne from "./FunOne";
 
 export class GrnadChild extends Component {
   render() {
     return (
+      <>
       <UseerConsumer>
         {(username) => {
           return (
@@ -11,6 +13,8 @@ export class GrnadChild extends Component {
           );
         }}
       </UseerConsumer>
+      <FunOne />
+      </>
     );
   }
 }
